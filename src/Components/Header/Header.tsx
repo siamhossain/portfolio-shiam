@@ -75,7 +75,8 @@ const Header = () => {
                                     <td>
                                         <div className="wrapper">
                                             <div>
-                                                <button>Hire Me</button>
+                                                {/* <button id="#contact">Hire Me</button> */}
+                                                <a href="#contact" className='button'>Hire Me</a>
                                             </div>
                                             <div className="theme-toggle" data-toggle="theme">
                                                 <img src={moon} alt="" data-theme-icon="moon"/>

@@ -122,15 +122,15 @@
           align-items: center;
         }
 
-        button {
+        .button {
           background: #00cf5d;
           color: #FFFFFF;
           border: none;
-          font-size: 14px;
+          font-size: 15px;
           padding: 13px 41px;
           font-family: "Inter-Medium";
           border-radius: 3px;
-
+          text-decoration: none;
           outline: 1px solid;
           outline-color: #08cd60;
           outline-offset: 0px;
