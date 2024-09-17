@@ -1,0 +1,57 @@
+@media only screen and (max-width: 768px) {
+  .download-btn {
+    text-align: center;
+  }
+}
+.download-btn .cv-download-btn {
+  border-radius: 3px;
+  background: var(--green-color);
+  top: 1425px;
+  border: none;
+  font-size: 15px;
+  font-family: "Inter-Bold";
+  color: var(--text-color-white);
+  line-height: 2.143;
+  padding: 6px 18px;
+  outline: 1px solid;
+  outline-color: var(--green-color);
+  outline-offset: 0px;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+.download-btn .cv-download-btn i {
+  font-size: 18px;
+  margin-right: 8px;
+}
+@media only screen and (max-width: 1200px) {
+  .download-btn .cv-download-btn {
+    margin-top: 35px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .download-btn .cv-download-btn {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .download-btn .cv-download-btn {
+    width: 160px;
+    height: 44px;
+  }
+}
+.download-btn .cv-download-btn img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+.download-btn .cv-download-btn:hover {
+  background: var(--button-hover-color);
+  transition: 0.3s;
+  outline-color: rgba(0, 0, 0, 0);
+  outline-offset: 15px;
+  color: var(--text-color-white);
+}/*# sourceMappingURL=download-btn.css.map */

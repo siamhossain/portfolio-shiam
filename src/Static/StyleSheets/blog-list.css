@@ -1,0 +1,182 @@
+/*Blog-section*/
+.blog-list {
+  background: var(--primary-color);
+  padding: 100px 0;
+}
+@media only screen and (max-width: 500px) {
+  .blog-list .responsive-container {
+    padding: 0 25px;
+  }
+}
+.blog-list .blog-card-container {
+  height: 500px;
+  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  background-color: var(--blog-section-card-background-color);
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  .blog-list .blog-card-container {
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blog-list .blog-card-container {
+    height: 380px;
+  }
+}
+.blog-list .blog-card-container .laptop-image {
+  background: var(--blog-section-background-image1);
+  height: 270px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  .blog-list .blog-card-container .laptop-image {
+    height: 200px;
+  }
+}
+.blog-list .blog-card-container .watch-image {
+  background: var(--blog-section-background-image2);
+  height: 270px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  .blog-list .blog-card-container .watch-image {
+    height: 200px;
+  }
+}
+.blog-list .blog-card-container .joystick-image {
+  background: var(--blog-section-background-image3);
+  height: 270px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  .blog-list .blog-card-container .joystick-image {
+    height: 200px;
+  }
+}
+.blog-list .blog-card-container .card-date {
+  margin-top: 40px;
+  padding-left: 30px;
+}
+.blog-list .blog-card-container .card-date p {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+.blog-list .blog-card-container .card-date h3 {
+  font-size: 25px;
+  font-family: "Inter-Bold";
+  color: var(--blog-section-card-text-title-color);
+}
+.blog-list .blog-card-container .right-arrow-icon {
+  margin-top: 20px;
+  padding-left: 30px;
+  color: var(--blog-section-card-text-title-color);
+}
+.blog-list .blog-card-container .right-arrow-icon:hover {
+  color: var(--blog-section-icon-hover-color);
+}
+.blog-list .categories {
+  height: 500px;
+  padding: 25px;
+  background: #fff;
+  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.blog-list .categories h2 {
+  font-size: 21px;
+  font-family: "Inter-Bold";
+  color: #0f0f0f;
+  line-height: 1.669;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #efefef;
+}
+.blog-list .categories ul {
+  padding: 0;
+  padding-top: 45px;
+  list-style: none !important;
+}
+.blog-list .categories ul li {
+  margin-bottom: 18px;
+}
+.blog-list .categories ul li a {
+  list-style-type: none;
+  font-size: 16px;
+  text-decoration: none;
+  color: #0f0f0f;
+}
+.blog-list .categories ul li a span {
+  float: right !important;
+  font-size: 14px;
+  border-radius: 10px;
+  font-family: "Inter-Regular";
+  background-color: #00cf5d;
+  color: #FFFFFF;
+  width: 42px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-list .categories ul li a span ._13 {
+  font-size: 14px;
+  font-family: "Inter";
+  color: rgb(255, 255, 255);
+  line-height: 2.857;
+  position: absolute;
+  left: 1554.786px;
+  top: 343.001px;
+  z-index: 138;
+}
+.blog-list .categories ul li a:hover {
+  color: #fe9400;
+}
+.blog-list .categories ul li a:hover span {
+  color: #000 !important;
+}
+.blog-list .recent-posts {
+  padding: 25px 25px 45px 25px;
+  background: #fff;
+  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+.blog-list .recent-posts h2 {
+  font-size: 21px;
+  font-family: "Inter-Bold";
+  color: #0f0f0f;
+  line-height: 1.669;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #efefef;
+}
+.blog-list .recent-posts .post {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #efefef;
+  margin-top: 20px;
+}
+.blog-list .recent-posts .post img {
+  border-radius: 10px;
+  width: 64px;
+  height: 66px;
+  margin-right: 20px;
+}
+.blog-list .recent-posts .post h6 {
+  font-size: 14px;
+  font-family: "Inter-Bold";
+  color: rgb(133, 135, 152);
+}
+
+/*Blog-Section End*//*# sourceMappingURL=blog-list.css.map */

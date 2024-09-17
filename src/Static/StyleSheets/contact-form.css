@@ -1,0 +1,165 @@
+.contact-section {
+  padding: 60px 0;
+  background: var(--primary-color);
+}
+@media only screen and (max-width: 900px) {
+  .contact-section .container {
+    padding: 40px 50px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .contact-section .container {
+    padding: 10px 20px;
+  }
+}
+.contact-section .contact-wrap {
+  padding: 50px 80px;
+  border: 1px solid purple;
+  border-radius: 15px;
+}
+.contact-section h2 {
+  color: var(--secondary-color);
+  font-size: 37px;
+  font-family: "Inter-Bold";
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 400px) {
+  .contact-section h2 {
+    font-size: 25px;
+  }
+}
+.contact-section .contact-form textarea {
+  resize: vertical;
+  height: 240px;
+}
+.contact-section .contact-form .form-control {
+  background-color: var(--primary-color);
+  margin-bottom: 25px;
+  border: 1px solid var(--contact-form-input-border-color);
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.contact-section -- .contact-form-button {
+  margin-top: 20px;
+}
+.contact-section -- .contact-form-button button {
+  background: #00cf5d;
+  color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  padding: 13px 41px;
+  font-family: "Inter-Medium";
+  border-radius: 3px;
+  float: right;
+  outline: 1px solid;
+  outline-color: #08cd60;
+  outline-offset: 0px;
+}
+@media only screen and (max-width: 1200px) {
+  .contact-section -- .contact-form-button button {
+    padding: 10px 25px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .contact-section -- .contact-form-button button {
+    padding: 10px 25px;
+    margin-bottom: 50px;
+  }
+}
+.contact-section .info-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+.contact-section .info-details i {
+  font-size: 20px;
+  color: #49b3fa;
+}
+.contact-section .info-details .card-phone-info {
+  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
+  padding: 20px;
+  background-color: var(--mobile-sidebar-bg-color);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--secondary-color);
+}
+.contact-section .info-details .card-phone-info h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 400px) {
+  .contact-section .info-details .card-phone-info h3 {
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+}
+.contact-section .info-details .card-info-details-phone-background {
+  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
+  background-color: var(--mobile-sidebar-bg-color);
+  color: var(--secondary-color);
+  border-radius: 3px;
+  padding: 20px;
+}
+@media only screen and (max-width: 400px) {
+  .contact-section .info-details .card-info-details-phone-background {
+    height: 45px;
+    width: 120px;
+    padding: 10px;
+  }
+}
+.contact-section .info-details .card-info-details-phone-background h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.contact-section .info-details .card-info-details-phone-background h4:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 400px) {
+  .contact-section .info-details .card-info-details-phone-background h4 {
+    font-size: 10px;
+  }
+}
+.contact-section .info-details .card-info-details-email-background {
+  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
+  background-color: var(--mobile-sidebar-bg-color);
+  color: var(--secondary-color);
+  border-radius: 3px;
+  padding: 20px;
+}
+.contact-section .info-details .card-info-details-email-background h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.contact-section .info-details .card-info-details-email-background h4:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 400px) {
+  .contact-section .info-details .card-info-details-email-background h4 {
+    font-size: 10px;
+  }
+}
+.contact-section .info-details .card-info-details-location-background {
+  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
+  background-color: var(--mobile-sidebar-bg-color);
+  color: var(--secondary-color);
+  border-radius: 3px;
+  padding: 20px;
+}
+@media only screen and (max-width: 400px) {
+  .contact-section .info-details .card-info-details-location-background {
+    height: 45px;
+    width: 120px;
+    padding: 10px;
+  }
+}
+.contact-section .info-details .card-info-details-location-background h4 {
+  font-size: 16px;
+}
+@media only screen and (max-width: 400px) {
+  .contact-section .info-details .card-info-details-location-background h4 {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=contact-form.css.map */

@@ -1,0 +1,169 @@
+/* Services*/
+.service-section {
+  background: var(--primary-color);
+  padding: 60px 0;
+}
+@media only screen and (max-width: 500px) {
+  .service-section .responsive-container {
+    padding: 0 25px;
+  }
+}
+.service-section .my-services {
+  margin-top: 80px;
+}
+@media only screen and (max-width: 900px) {
+  .service-section .my-services {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .service-section .my-services {
+    margin-top: 0;
+  }
+}
+.service-section .my-services h1 {
+  font-size: 37px;
+  font-family: "Inter-Bold";
+  color: var(--section-headline-color);
+  line-height: 0.813;
+}
+@media only screen and (max-width: 900px) {
+  .service-section .my-services h1 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .service-section .my-services h1 {
+    font-size: 25px;
+  }
+}
+.service-section .my-services p {
+  font-size: 16px;
+  font-family: "Inter-Regular";
+  color: var(--text-color);
+  line-height: 1.625;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .service-section .my-services .explore-btn {
+    text-align: center;
+  }
+}
+.service-section .my-services .explore-btn button {
+  border-radius: 3px;
+  background: var(--green-color);
+  width: 193px;
+  height: 60px;
+  border: none;
+  font-size: 14px;
+  font-family: "Inter-Bold";
+  color: var(--text-color-white);
+  line-height: 2.143;
+  margin-top: 80px;
+  margin-bottom: 35px;
+  outline: 1px solid;
+  outline-color: var(--green-color);
+  outline-offset: 0px;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+@media only screen and (max-width: 1200px) {
+  .service-section .my-services .explore-btn button {
+    margin-top: 35px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .service-section .my-services .explore-btn button {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .service-section .my-services .explore-btn button {
+    width: 140px;
+    height: 40px;
+  }
+}
+.service-section .my-services .explore-btn button img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+.service-section .my-services .explore-btn button:hover {
+  background: var(--button-hover-color);
+  transition: 0.3s;
+  outline-color: rgba(0, 0, 0, 0);
+  outline-offset: 15px;
+  color: var(--text-color-white);
+}
+.service-section .web-design {
+  margin-top: 20px;
+}
+.service-section .service-card {
+  border-radius: 10px;
+  padding: 35px;
+  background-color: var(--mobile-sidebar-bg-color);
+  box-shadow: 0px 24px 35.28px 13.72px rgba(0, 0, 0, 0.04);
+  margin-bottom: 20px;
+}
+.service-section .service-card .service-card-icon {
+  border-radius: 50%;
+  background-color: var(--service-icon-bg-color);
+  width: 81px;
+  height: 80px;
+  z-index: 254;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-section .service-card h2 {
+  font-size: 21px;
+  font-family: "Inter-Bold";
+  color: var(--section-headline-color);
+  line-height: 1.19;
+  margin-top: 20px;
+}
+.service-section .service-card p {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Inter-Regular";
+  color: var(--text-color);
+  line-height: 1.625;
+  margin-top: 15px;
+}
+.service-section .service-card button {
+  margin-top: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 207, 93);
+  border-radius: 2px;
+  background: transparent;
+  width: 141px;
+  height: 44px;
+  font-size: 14px;
+  font-family: "Inter-Medium";
+  color: var(--secondary-color);
+  line-height: 1.855;
+  text-align: center;
+}
+.service-section .service-card:hover {
+  background: #00cf5d;
+  cursor: pointer;
+  color: #ffffff;
+  transition: 0.5s;
+  transform: translateY(-5px);
+}
+.service-section .service-card:hover .service-card-icon {
+  background: var(--text-color-white);
+}
+.service-section .service-card:hover h2 {
+  color: #ffffff;
+}
+.service-section .service-card:hover p {
+  color: #ffffff;
+}
+.service-section .service-card:hover button {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* Services End *//*# sourceMappingURL=services.css.map */

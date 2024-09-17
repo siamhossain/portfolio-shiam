@@ -1,0 +1,175 @@
+
+.contact-section {
+  padding: 60px 0;
+  background: var(--primary-color);
+
+  .container {
+    
+    @media only screen and (max-width: 900px) {
+      padding: 40px 50px;
+    }
+    @media only screen and (max-width: 400px) {
+      padding: 10px 20px;
+    }
+  }
+
+  .contact-wrap {
+    padding: 50px 80px;
+    border: 1px solid purple;
+    border-radius: 15px;
+  }
+
+  h2 {
+    color: var(--secondary-color);
+    font-size: 37px;
+    font-family: "Inter-Bold";
+    margin-bottom: 20px;
+    @media only screen and (max-width: 400px) {
+      font-size: 25px;
+    }
+  }
+
+  .contact-form {
+
+    textarea {
+      resize: vertical;
+      height: 240px;
+    }
+
+    .form-control {
+      background-color: var(--primary-color);
+      margin-bottom: 25px;
+      border: 1px solid var(--contact-form-input-border-color);
+      padding-top: 11px;
+      padding-bottom: 11px;
+    }
+
+  }
+--
+  .contact-form-button {
+    margin-top: 20px;
+
+    button {
+      background: #00cf5d;
+      color: #FFFFFF;
+      border: none;
+      font-size: 14px;
+      padding: 13px 41px;
+      font-family: "Inter-Medium";
+      border-radius: 3px;
+      float: right;
+      outline: 1px solid;
+      outline-color: #08cd60;
+      outline-offset: 0px;
+
+      @media only screen and (max-width: 1200px) {
+        padding: 10px 25px;
+      }
+
+      @media only screen and (max-width: 900px) {
+        padding: 10px 25px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .info-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 20px;
+    i {
+      font-size: 20px;
+      color: #49b3fa;
+    }
+    .card-phone-info {
+      box-shadow: 0px 9px 47.31px 9.69px rgb(0 0 0 / 4%);
+      padding: 20px;
+      background-color: var(--mobile-sidebar-bg-color);
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--secondary-color);
+      @media only screen and (max-width: 400px) {
+      }
+
+      h3 {
+        font-size: 16px;
+        margin-bottom: 0;
+        @media only screen and (max-width: 400px) {
+          font-size: 13px;
+          margin-bottom: 0px;
+        }
+      }
+
+    }
+
+    .card-info-details-phone-background {
+      box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
+      background-color: var(--mobile-sidebar-bg-color);
+      color: var(--secondary-color);
+      border-radius: 3px;
+      padding: 20px;
+      @media only screen and (max-width: 400px) {
+        height: 45px;
+        width: 120px;
+        padding: 10px;
+      }
+
+      h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        @media only screen and (max-width: 400px) {
+          font-size: 10px;
+        }
+      }
+    }
+
+    .card-info-details-email-background {
+      box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
+      background-color: var(--mobile-sidebar-bg-color);
+      color: var(--secondary-color);
+      border-radius: 3px;
+      padding: 20px;
+
+      h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        @media only screen and (max-width: 400px) {
+          font-size: 10px;
+        }
+      }
+    }
+
+    .card-info-details-location-background {
+      box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
+      background-color: var(--mobile-sidebar-bg-color);
+      color: var(--secondary-color);
+      border-radius: 3px;
+      padding: 20px;
+      @media only screen and (max-width: 400px) {
+        height: 45px;
+        width: 120px;
+        padding: 10px;
+      }
+
+      h4 {
+        font-size: 16px;
+        @media only screen and (max-width: 400px) {
+          font-size: 10px;
+        }
+      }
+    }
+
+  }
+}
+
+
+

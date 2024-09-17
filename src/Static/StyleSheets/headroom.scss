@@ -1,0 +1,24 @@
+.headroom {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .headroom--unfixed {
+    // position: relative;
+    transform: translateY(0);
+  }
+  .headroom--scrolled {
+    transition: transform 400ms ease-in-out;
+  }
+  .headroom--unpinned {
+    position: fixed;
+    transform: translateY(-100%);
+  }
+  .headroom--pinned {
+    position: fixed;
+    transform: translateY(0%);
+    .header-section {
+        box-shadow: var(--sticky-header-box-shadow);
+    }
+  }

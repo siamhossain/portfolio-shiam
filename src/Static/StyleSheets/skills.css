@@ -1,0 +1,220 @@
+/* Skills-section */
+.skill-section {
+  background: var(--primary-color);
+  padding: 60px 0;
+}
+@media only screen and (max-width: 500px) {
+  .skill-section .responsive-container {
+    padding: 0 25px;
+  }
+}
+.skill-section .skill-tab-pane {
+  margin-bottom: 30px;
+  /* Style the buttons */
+}
+.skill-section .skill-tab-pane h2 {
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: var(--text-color-black);
+  font-family: "Inter-Bold", serif;
+  font-size: 37px;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 425px) {
+  .skill-section .skill-tab-pane h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .skill-section .skill-tab-pane h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .skill-section .skill-tab-pane h2 {
+    font-size: 25px;
+  }
+}
+.skill-section .skill-tab-pane .btnContainer {
+  overflow: auto;
+  white-space: nowrap;
+}
+.skill-section .skill-tab-pane .btnContainer .tab-btn {
+  outline: none;
+  padding: 8px 28px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  border-radius: 20px;
+  color: var(--text-color-black);
+  background: var(--tab-btn-bg-color);
+  font-family: "Inter-Bold", serif;
+  transition: background 0.8s;
+  font-size: 15px;
+}
+.skill-section .skill-tab-pane .btnContainer .tab-btn :active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+.skill-section .skill-tab-pane .btnContainer .tab-btn:hover {
+  background-color: #00cf5d;
+  color: white;
+}
+@media only screen and (max-width: 992px) {
+  .skill-section .skill-tab-pane .btnContainer .tab-btn {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .skill-section .skill-tab-pane .btnContainer .tab-btn {
+    padding: 5px 20px;
+  }
+}
+.skill-section .skill-tab-pane .btnContainer .ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.skill-section .skill-tab-pane .btnContainer .ripple :hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.skill-section .skill-tab-pane .btnContainer .ripple :active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+.skill-section .skill-tab-pane .btnContainer .active {
+  background-color: #00cf5d;
+  color: white;
+  font-weight: bold;
+}
+.skill-section .skill-tab-content .item {
+  background: var(--skill-item-bg-color);
+  padding: 20px 25px 25px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.skill-section .skill-tab-content .item .icon {
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.skill-section .skill-tab-content .item .icon img {
+  width: 30px;
+  height: 30px;
+}
+@media only screen and (max-width: 425px) {
+  .skill-section .skill-tab-content .item .icon img {
+    width: 20px;
+    height: 20px;
+  }
+}
+.skill-section .skill-tab-content .item .content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.skill-section .skill-tab-content .item .content .sub-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-section .skill-tab-content .item .content .sub-content h3 {
+  color: var(--text-color-black);
+  font-size: 18px;
+}
+@media only screen and (max-width: 992px) {
+  .skill-section .skill-tab-content .item .content .sub-content h3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .skill-section .skill-tab-content .item .content .sub-content h3 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .skill-section .skill-tab-content .item .content .sub-content h3 {
+    font-size: 14px;
+  }
+}
+.skill-section .skill-tab-content .item .content .sub-content span {
+  padding: 3px 5px;
+  font-weight: bold;
+  color: var(--text-color-black);
+  font-size: 18px;
+}
+@media only screen and (max-width: 992px) {
+  .skill-section .skill-tab-content .item .content .sub-content span {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .skill-section .skill-tab-content .item .content .sub-content span {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .skill-section .skill-tab-content .item .content .sub-content span {
+    font-size: 12px;
+  }
+}
+.skill-section .skill-tab-content .item .content .progress-bar {
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 4px;
+}
+.skill-section .skill-tab-content .light-green .icon {
+  background: #8beeb8;
+}
+.skill-section .skill-tab-content .light-green .content .progress-bar {
+  background: #8beeb8;
+}
+.skill-section .skill-tab-content .light-blue .icon {
+  background: #b3d1ff;
+}
+.skill-section .skill-tab-content .light-blue .content .progress-bar {
+  background: #b3d1ff;
+}
+.skill-section .skill-tab-content .light-sky .icon {
+  background: #85cddb;
+}
+.skill-section .skill-tab-content .light-sky .content .progress-bar {
+  background: #85cddb;
+}
+.skill-section .skill-tab-content .light-yellow .icon {
+  background: #ffd97a;
+}
+.skill-section .skill-tab-content .light-yellow .content .progress-bar {
+  background: #ffd97a;
+}
+.skill-section .skill-tab-content .light-pink .icon {
+  background: #e3c5d1;
+}
+.skill-section .skill-tab-content .light-pink .content .progress-bar {
+  background: #e3c5d1;
+}
+.skill-section .skill-tab-content .light-purple .icon {
+  background: #d3aeff;
+}
+.skill-section .skill-tab-content .light-purple .content .progress-bar {
+  background: #d3aeff;
+}
+.skill-section [data-tab-name] {
+  display: none;
+}
+
+/* Skills-section End *//*# sourceMappingURL=skills.css.map */

@@ -1,0 +1,144 @@
+/*About-section*/
+.about-section {
+  background: var(--primary-color);
+  padding: 60px 0;
+}
+@media only screen and (max-width: 500px) {
+  .about-section .responsive-container {
+    padding: 0 25px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .about-section .about-img-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+.about-section .about-img-container .about-img {
+  background: url("../images/about-section/person.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 436px;
+  height: 511px;
+  display: inline-block;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  .about-section .about-img-container .about-img {
+    width: 350px;
+    height: 380px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-section .about-img-container .about-img {
+    width: 320px;
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .about-section .about-img-container .about-img {
+    width: 220px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .about-section .about-text-content {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+.about-section .about-text-content h1 {
+  font-size: 37px;
+  font-family: "Inter-Bold";
+  color: var(--section-headline-color);
+  line-height: 0.811;
+}
+@media only screen and (max-width: 1024px) {
+  .about-section .about-text-content h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-section .about-text-content h1 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .about-section .about-text-content h1 {
+    font-size: 25px;
+  }
+}
+.about-section .about-text-content p {
+  font-size: 16px;
+  margin-top: 25px;
+  font-family: "Inter-Regular";
+  color: var(--text-color);
+  line-height: 1.563;
+}
+@media only screen and (max-width: 1024px) {
+  .about-section .about-text-content p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .about-section .about-text-content p {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+}
+.about-section .counters {
+  margin-top: 80px;
+}
+@media only screen and (max-width: 1400px) {
+  .about-section .counters {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-section .counters {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .about-section .counters {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-section .counters .clients {
+    text-align: center;
+  }
+}
+.about-section .counters .clients h1 {
+  font-size: 32px;
+  font-family: "Poppins-Bold";
+  color: var(--green-color);
+  line-height: 0.964;
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 768px) {
+  .about-section .counters .clients h1 {
+    font-size: 25px;
+  }
+}
+.about-section .counters .clients p {
+  font-size: 14px;
+  font-family: "Inter-Bold";
+  color: var(--section-headline-color);
+  text-transform: uppercase;
+  line-height: 1.421;
+}
+@media only screen and (max-width: 1024px) {
+  .about-section .counters .clients p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-section .counters .clients p {
+    font-size: 13px;
+  }
+}
+
+/*About-Section End*//*# sourceMappingURL=about-section.css.map */

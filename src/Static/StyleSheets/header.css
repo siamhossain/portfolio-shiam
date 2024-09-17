@@ -1,0 +1,166 @@
+/* header css */
+.header-section {
+  background: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
+.header-section nav table {
+  width: 100%;
+  height: 100px;
+}
+.header-section nav table td:nth-child(1) a {
+  text-decoration: none !important;
+}
+.header-section nav table td:nth-child(1) a .logo {
+  height: 60px;
+  width: 60px;
+  background: var(--green-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.header-section nav table td:nth-child(1) a .logo p {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-family: "Inter-Bold";
+  color: var(--logo-text-color);
+  text-transform: uppercase;
+  line-height: 0.833;
+}
+@media only screen and (max-width: 500px) {
+  .header-section nav table td:nth-child(1) a .logo {
+    height: 45px;
+    width: 45px;
+  }
+}
+.header-section nav table td:nth-child(2) {
+  color: blueviolet;
+  text-align: right;
+  padding-right: 25px;
+}
+@media only screen and (max-width: 1024px) {
+  .header-section nav table td:nth-child(2) {
+    padding-right: 15px;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .header-section nav table td:nth-child(2) {
+    width: 100%;
+  }
+}
+.header-section nav table td:nth-child(2) ul {
+  margin: 0;
+  padding: 0;
+}
+.header-section nav table td:nth-child(2) ul li {
+  display: inline;
+  margin: 5px 10px;
+}
+@media only screen and (max-width: 1024px) {
+  .header-section nav table td:nth-child(2) ul li {
+    margin: 5px 0;
+  }
+}
+.header-section nav table td:nth-child(2) ul li .active {
+  color: #00cf5d;
+}
+.header-section nav table td:nth-child(2) ul li a {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: "Inter-SemiBold";
+  color: var(--secondary-color);
+  font-weight: bold;
+  line-height: 1.875;
+  text-decoration: none;
+}
+.header-section nav table td:nth-child(2) ul li a:hover {
+  color: #00cf5d;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 1200px) {
+  .header-section nav table td:nth-child(2) ul li a {
+    padding: 0 0;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .header-section nav table td:nth-child(2) ul li a {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .header-section nav table td:nth-child(2) ul li a {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header-section nav table td:nth-child(3) {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .header-section nav table td:nth-child(3) {
+    width: 150px;
+  }
+}
+.header-section nav table td:nth-child(3) .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-section nav table td:nth-child(3) button {
+  background: #00cf5d;
+  color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  padding: 13px 41px;
+  font-family: "Inter-Medium";
+  border-radius: 3px;
+  outline: 1px solid;
+  outline-color: #08cd60;
+  outline-offset: 0px;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.header-section nav table td:nth-child(3) button:hover {
+  background: #03a74d;
+  transition: 0.3s;
+  outline-color: rgba(0, 0, 0, 0);
+  outline-offset: 15px;
+  color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+  .header-section nav table td:nth-child(3) button {
+    padding: 10px 25px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .header-section nav table td:nth-child(3) button {
+    display: none;
+  }
+}
+.header-section nav table td:nth-child(3) img {
+  height: 19px;
+  width: 19px;
+}
+.header-section nav table td:nth-child(3) .menu-icon i {
+  color: var(--secondary-color);
+  font-size: 25px;
+  margin-left: 15px;
+  display: none;
+}
+@media only screen and (max-width: 900px) {
+  .header-section nav table td:nth-child(3) .menu-icon i {
+    display: block;
+  }
+}
+.header-section nav [data-toggle=theme] {
+  cursor: pointer;
+  display: none;
+}
+.header-section nav [data-theme-icon] {
+  display: none;
+}
+
+/*Top Sidebar End*//*# sourceMappingURL=header.css.map */

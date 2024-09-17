@@ -1,0 +1,95 @@
+/* Experience*/
+.experience-section {
+  background: var(--primary-color);
+  padding: 60px 0;
+}
+@media only screen and (max-width: 500px) {
+  .experience-section .responsive-container {
+    padding: 0 25px;
+  }
+}
+.experience-section .section-heading {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.experience-section .section-heading h1 {
+  font-size: 37px;
+  font-family: "Inter-Bold";
+  color: var(--section-headline-color);
+  line-height: 0.675;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 500px) {
+  .experience-section .section-heading h1 {
+    font-size: 25px;
+  }
+}
+.experience-section .experience-card-area {
+  position: relative;
+}
+.experience-section .experience-card-area .test i {
+  font-size: 40px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -63px;
+}
+@media only screen and (max-width: 992px) {
+  .experience-section .experience-card-area .test {
+    display: none;
+  }
+}
+.experience-section .experience-card-area .experience-card {
+  border-radius: 10px;
+  background-color: var(--mobile-sidebar-bg-color);
+  box-shadow: 0px 5px 35.28px 13.72px rgba(0, 0, 0, 0.04);
+  padding: 30px;
+  display: flex;
+  position: relative;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width: 400px) {
+  .experience-section .experience-card-area .experience-card {
+    display: block;
+  }
+}
+.experience-section .experience-card-area .experience-card-info h4.company-name {
+  font-size: 21px;
+  font-family: "Inter-Bold";
+  color: var(--section-headline-color);
+  line-height: 1.667;
+  margin-bottom: 3px;
+}
+.experience-section .experience-card-area .experience-card-info p.designation {
+  font-size: 16px;
+  font-family: "Inter-Regular";
+  color: var(--text-color);
+  line-height: 1.667;
+  margin-bottom: 0;
+}
+.experience-section .experience-card-area .experience-card-info p {
+  font-family: "Inter-Regular";
+  color: #ffffff;
+  line-height: 1.563;
+}
+.experience-section .experience-card-area .company-logo {
+  margin-bottom: 15px;
+}
+.experience-section .experience-card-area .company-logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.experience-section .experience-card-area .ex-year {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+/* Experience End *//*# sourceMappingURL=experience.css.map */

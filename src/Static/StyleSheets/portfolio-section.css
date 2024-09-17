@@ -1,0 +1,160 @@
+/* portfolio-section*/
+.portfolio-section {
+  background: var(--primary-color);
+  padding: 60px 0;
+}
+@media only screen and (max-width: 500px) {
+  .portfolio-section .responsive-container {
+    padding: 0 25px;
+  }
+}
+.portfolio-section h1 {
+  font-size: 37px;
+  font-family: "Inter-Bold";
+  color: var(--section-headline-color);
+  line-height: 0.811;
+}
+@media only screen and (max-width: 900px) {
+  .portfolio-section h1 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .portfolio-section h1 {
+    font-size: 25px;
+  }
+}
+.portfolio-section .portfolio-tab-pane {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.portfolio-section .portfolio-tab-pane .btn-container {
+  overflow: auto;
+  white-space: nowrap;
+}
+.portfolio-section .portfolio-tab-pane .btn-container .tab-btn {
+  outline: none;
+  padding: 8px 28px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  border-radius: 20px;
+  color: var(--text-color-black);
+  background: var(--tab-btn-bg-color);
+  font-family: "Inter-Bold", serif;
+  transition: background 0.8s;
+  font-size: 15px;
+}
+.portfolio-section .portfolio-tab-pane .btn-container .tab-btn :active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+.portfolio-section .portfolio-tab-pane .btn-container .tab-btn:hover {
+  background-color: #00cf5d;
+  color: white;
+}
+@media only screen and (max-width: 992px) {
+  .portfolio-section .portfolio-tab-pane .btn-container .tab-btn {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .portfolio-section .portfolio-tab-pane .btn-container .tab-btn {
+    padding: 5px 20px;
+  }
+}
+.portfolio-section .portfolio-tab-pane .btn-container .ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.portfolio-section .portfolio-tab-pane .btn-container .ripple :hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+.portfolio-section .portfolio-tab-pane .btn-container .ripple :active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+.portfolio-section .portfolio-tab-pane .btn-container .active {
+  background-color: #00cf5d;
+  color: white;
+  font-weight: bold;
+}
+.portfolio-section .tab {
+  display: none;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card {
+  padding: 25px;
+  border-radius: 8px;
+  background-color: #22303c;
+  color: #ffffff;
+  transition: all 0.4s ease-in-out;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  margin-bottom: 24px;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .title {
+  margin-bottom: 12px;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .title a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .title a:hover {
+  color: var(--green-color);
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .description {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .project-link-wrap {
+  margin-bottom: 12px;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .project-link-wrap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .project-link-wrap ul li a {
+  color: hsla(0deg, 0%, 100%, 0.85);
+  transition: all 0.5s ease-in-out;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .project-link-wrap ul li a i {
+  font-size: 22px;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .project-link-wrap ul li a:hover {
+  color: var(--green-color);
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .project-technology-wrap label {
+  display: inline;
+  font-size: 15px;
+  font-weight: bold;
+  color: #8894ac;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .project-technology-wrap ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  row-gap: 5px;
+}
+.portfolio-section .tab .portfolio-cards-container .portfolio-card .project-technology-wrap ul li {
+  font-size: 14px;
+  color: #8894ac;
+}
+.portfolio-section .tab.show {
+  display: block;
+}
+
+/* portfolio-section End *//*# sourceMappingURL=portfolio-section.css.map */
