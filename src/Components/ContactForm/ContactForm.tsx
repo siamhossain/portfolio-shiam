@@ -16,7 +16,7 @@ const ContactForm = () => {
                     <div className="row">
                         <div className="contact-wrap">
                             <h2>{contact_section.section_title}</h2>
-                            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                                 <div className="info-details">
                                     <div className="card-phone-info">
                                         <i className="fa fa-phone-square" aria-hidden="true"></i>

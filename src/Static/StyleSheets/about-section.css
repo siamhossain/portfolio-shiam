@@ -69,21 +69,21 @@
     font-size: 25px;
   }
 }
-.about-section .about-text-content p {
+.about-section .about-text-content .description {
   font-size: 16px;
   margin-top: 25px;
   font-family: "Inter-Regular";
-  color: var(--text-color);
+  color: var(--description-color);
   line-height: 1.563;
 }
 @media only screen and (max-width: 1024px) {
-  .about-section .about-text-content p {
+  .about-section .about-text-content .description {
     font-size: 14px;
     margin-top: 20px;
   }
 }
 @media only screen and (max-width: 425px) {
-  .about-section .about-text-content p {
+  .about-section .about-text-content .description {
     font-size: 13px;
     margin-top: 20px;
   }

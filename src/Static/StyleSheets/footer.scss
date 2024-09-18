@@ -22,14 +22,14 @@
     h2 {
       color: var(--text-color-white);
       font-size: 37px;
-
+      margin-bottom: 40px;
       span {
         color: #00cf5d;
       }
     }
 
+      
     .btn-banner {
-      margin-top: 30px;
       background: var(--common-bg-color);
       padding: 25px 50px;
       border: none;
@@ -42,24 +42,25 @@
       outline-color: var(--green-color);
       outline-offset: 0px;
       transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+      text-decoration: none;
 
       &:hover {
         background: #00cf5d;
       }
     }
 
-    .btn-banner {
-      margin-top: 30px;
-      background: var(--common-bg-color);
-      padding: 25px 50px;
-      border: none;
-      color: #ffffff;
-      font-weight: 500;
-      font-family: 'Inter-Bold';
-      font-size: 14px;
-      border-radius: 4px;
-      transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-    }
+    // .btn-banner {
+    //   margin-top: 30px;
+    //   background: var(--common-bg-color);
+    //   padding: 25px 50px;
+    //   border: none;
+    //   color: #ffffff;
+    //   font-weight: 500;
+    //   font-family: 'Inter-Bold';
+    //   font-size: 14px;
+    //   border-radius: 4px;
+    //   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    // }
 
     @media only screen and (max-width: 768px) {
       padding: 30px 0;
@@ -111,7 +112,6 @@
     }
 
     .social-list {
-      margin-top: 40px;
       @media only screen and (max-width: 500px) {
         margin-top: 20px;
         margin-bottom: 60px;
@@ -125,11 +125,13 @@
         li {
           padding: 0;
           float: left;
-          margin-right: 10px;
+          margin-right: 12px;
 
           a {
             color: #a9aaae;
-
+            i {
+              font-size: 22px;
+            }
             &:hover {
               color: var(--green-color);
             }

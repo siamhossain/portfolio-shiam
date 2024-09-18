@@ -36,8 +36,7 @@
 }
 .education-section .education-card {
   border-radius: 10px;
-  background-color: var(--mobile-sidebar-bg-color);
-  box-shadow: var(--education-section-card-shadow);
+  background-color: var(--card-bg-color);
   margin-bottom: 25px;
   padding: 40px 30px;
   display: flex;
@@ -48,11 +47,6 @@
     display: block;
   }
 }
-.education-section .education-card:hover {
-  cursor: pointer;
-  box-shadow: var(--education-section-card-hover-shadow);
-  transition: 0.5s;
-}
 .education-section .education-card .education-card-logo i {
   font-size: 28px;
   margin-right: 20px;
@@ -62,27 +56,13 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-}
-.education-section .education-card .education-card-logo i.light-green {
-  color: #81b441;
-  border: 1px dashed #81b441;
-}
-.education-section .education-card .education-card-logo i.light-blue {
-  color: #97deff;
-  border: 1px dashed #97deff;
-}
-.education-section .education-card .education-card-logo i.light-orange {
-  color: #ffa397;
-  border: 1px dashed #ffa397;
-}
-.education-section .education-card .education-card-logo i.light-purple {
-  color: #f697ff;
-  border: 1px dashed #f697ff;
+  color: var(--education-cap-color);
+  border: 1px dashed var(--education-cap-color);
 }
 .education-section .education-card .education-card-details p.years {
   font-size: 16px;
   font-family: "Inter-Bold";
-  color: var(--education-section-year-color);
+  color: var(--experience-year-color);
   line-height: 1.562;
   margin: 0;
   padding: 0;
@@ -99,7 +79,7 @@
 .education-section .education-card .education-card-details p.university {
   font-size: 16px;
   font-family: "Inter-Regular";
-  color: #7a7c8f;
+  color: var(--text-color-black);
   line-height: 1.563;
   margin: 0;
   padding: 0;

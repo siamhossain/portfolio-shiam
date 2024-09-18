@@ -1,6 +1,5 @@
 
 import AppDevelopment from '../Static/icons/App-Development.png';
-import graphic from '../Static/icons/ic_graphic.png';
 import WebDevelopment from '../Static/icons/Web-Development.png';
 import eDorpon from '../Static/images/logos/eDorpon.jpg';
 import joomShaper from '../Static/images/logos/joomShaper.png';
@@ -8,10 +7,14 @@ import radiusTheme from '../Static/images/logos/radiusTheme.png';
 
 import Apps from "../Static/images/Skills/Apps.png";
 import Graphic from "../Static/images/Skills/Graphic-Design.png";
+import javaScript from "../Static/images/Skills/javascript.svg";
 import Marketing from "../Static/images/Skills/Marketing.png";
 import Next from "../Static/images/Skills/Next-js.png";
+import NextJs from "../Static/images/Skills/nextjs.svg";
+import PHP from "../Static/images/Skills/php.svg";
 import reactImg from "../Static/images/Skills/React.png";
 import UI from "../Static/images/Skills/UI-Design.png";
+import Wordpress from "../Static/images/Skills/wordpress.svg";
 
 import { StaticData } from './staticData.d';
 
@@ -53,25 +56,25 @@ const staticData: StaticData = {
                         {
                             color: "light-purple",
                             progress: "80%",
-                            icon: Next,
+                            icon: NextJs,
                             title: "Next.JS"
                         },
                         {
                             color: "light-green",
                             progress: "90%",
-                            icon: UI,
+                            icon: Wordpress,
                             title: "Wordpress"
                         },
                         {
                             color: "light-purple",
                             progress: "80%",
-                            icon: Next,
+                            icon: javaScript,
                             title: "javaScript"
                         },
                         {
                             color: "light-purple",
                             progress: "80%",
-                            icon: Next,
+                            icon: PHP,
                             title: "PHP"
                         },
                     ],
@@ -90,7 +93,7 @@ const staticData: StaticData = {
                         {
                             color: "light-purple",
                             progress: "80%",
-                            icon: Next,
+                            icon: javaScript,
                             title: "javaScript"
                         },
                         {
@@ -102,7 +105,7 @@ const staticData: StaticData = {
                         {
                             color: "light-purple",
                             progress: "80%",
-                            icon: Next,
+                            icon: NextJs,
                             title: "Next.JS"
                         },
                         {
@@ -163,7 +166,7 @@ const staticData: StaticData = {
                         {
                             color: "light-blue",
                             progress: "80%",
-                            icon: Graphic,
+                            icon: PHP,
                             title: "PHP"
                         },
                         {
@@ -305,27 +308,9 @@ const staticData: StaticData = {
         sub_title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat inventore, non. A adipisci, assumenda facilis minima omnis quisquam totam.",
         data: [
             {
-                icon: graphic,
-                title: "Graphic Design",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet error fugit molestiae mollitia natus, optio quis reprehenderit",
-                button: {
-                    title: "Learn More",
-                    href: "http://google.com",
-                },
-            },
-            {
                 icon: AppDevelopment,
                 title: "Web Design",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet error fugit molestiae mollitia natus, optio quis reprehenderit",
-                button: {
-                    title: "Learn More",
-                    href: "http://google.com",
-                },
-            },
-            {
-                icon: WebDevelopment,
-                title: "App Development",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet error fugit molestiae mollitia natus, optio quis reprehenderit",
+                description: "Crafting visually stunning and user-friendly website designs.",
                 button: {
                     title: "Learn More",
                     href: "http://google.com",
@@ -334,12 +319,22 @@ const staticData: StaticData = {
             {
                 icon: WebDevelopment,
                 title: "Wev Development",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet error fugit molestiae mollitia natus, optio quis reprehenderit",
+                description: "Building responsive, high-performance web applications.",
                 button: {
                     title: "Learn More",
                     href: "http://google.com",
                 },
             },
+            {
+                icon: WebDevelopment,
+                title: "WordPress Development",
+                description: "Creating custom, scalable WordPress solutions.",
+                button: {
+                    title: "Learn More",
+                    href: "http://google.com",
+                },
+            },
+            
         ]
     },
 
@@ -703,51 +698,52 @@ const staticData: StaticData = {
             subtitle: "Start a Conversation",
             hireButton: {
                 title: "Hire Me Now",
-                href: "http://google.com",
+                href: "#contact",
             },
         },
         logo_letter: "S",
-        description: "Lorem ipsum dolor sit amet, ing elit, sed do eiusmod tempor incididunt ut sed do labore et dolore magna aliqua.eiusmod",
+        description: "Hi, I'm Shiam Hossain, a web developer creating dynamic and beautiful web pages. Let's bring your ideas to life.",
+        
         service_links: [
             {
-                href: "",
-                title: "Strategy",
+                href: "#about",
+                title: "About",
             },
             {
-                href: "",
-                title: "Design",
+                href: "#services",
+                title: "Services",
             },
             {
-                href: "",
-                title: "Content",
+                href: "#portfolio",
+                title: "Portfolio",
             },
             {
-                href: "",
-                title: "Technology",
+                href: "#blog",
+                title: "blog",
+            },
+            {
+                href: "#testimonial",
+                title: "Testimonial",
             },
         ],
         about_links: [
             {
                 href: "",
-                title: "Case Studies",
+                title: "Web Design",
             },
             {
                 href: "",
-                title: "Career",
+                title: "Web Development",
             },
             {
                 href: "",
-                title: "Contact Us",
-            },
-            {
-                href: "",
-                title: "Privacy Policy",
+                title: "Wordpress development",
             },
         ],
         contact_info: {
-            phone: "+7 928-101-23-45",
-            email: "olux.moore@gmail.com",
-            address: "374 William S Canning Blvd",
+            phone: "(+88) 01521205615",
+            email: "shiamhossain1995@gmail.com",
+            address: "Dhaka, Bangladesh",
         },
         showSocialIcons: true,
     },
@@ -755,7 +751,17 @@ const staticData: StaticData = {
     social_links: {
         facebook: {
             title: "",
-            href: "",
+            href: "https://facebook.com/siam.cse",
+            icon: null,
+        },
+        linkedin: {
+            title: "",
+            href: "https://www.linkedin.com/in/shiam-hossain/",
+            icon: null,
+        },
+        github: {
+            title: "",
+            href: "https://www.github.com/siamhossain/",
             icon: null,
         },
         twitter: {

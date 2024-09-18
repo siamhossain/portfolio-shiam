@@ -48,8 +48,7 @@
 }
 .experience-section .experience-card-area .experience-card {
   border-radius: 10px;
-  background-color: var(--mobile-sidebar-bg-color);
-  box-shadow: 0px 5px 35.28px 13.72px rgba(0, 0, 0, 0.04);
+  background-color: var(--card-bg-color);
   padding: 30px;
   display: flex;
   position: relative;
@@ -63,20 +62,20 @@
 .experience-section .experience-card-area .experience-card-info h4.company-name {
   font-size: 21px;
   font-family: "Inter-Bold";
-  color: var(--section-headline-color);
+  color: var(--experience-title-color);
   line-height: 1.667;
   margin-bottom: 3px;
 }
 .experience-section .experience-card-area .experience-card-info p.designation {
   font-size: 16px;
   font-family: "Inter-Regular";
-  color: var(--text-color);
+  color: var(--text-color-black);
   line-height: 1.667;
   margin-bottom: 0;
 }
-.experience-section .experience-card-area .experience-card-info p {
+.experience-section .experience-card-area .experience-card-info p.ex-year {
   font-family: "Inter-Regular";
-  color: #ffffff;
+  color: var(--experience-year-color);
   line-height: 1.563;
 }
 .experience-section .experience-card-area .company-logo {

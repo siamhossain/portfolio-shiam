@@ -18,8 +18,7 @@ const AboutSection = () => {
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10">
                             <div className="about-text-content">
                                 <h1>{about_section.section_title}</h1>
-                                <p dangerouslySetInnerHTML={{ __html: about_section.description }}></p>
-                                <p></p>
+                                <p className='description' dangerouslySetInnerHTML={{ __html: about_section.description }}></p>
                             </div>
 
                             <div className="download-btn">

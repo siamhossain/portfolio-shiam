@@ -8,6 +8,7 @@ import FooterSection from "../../Components/FooterSection/FooterSection";
 import Header from "../../Components/Header/Header";
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import PortfolioSection from "../../Components/PortfolioSection/PortfolioSection";
+import ServicesSection from "../../Components/ServicesSection/ServicesSection";
 import SkillsSection from "../../Components/SkillsSection/SkillsSection";
 import '../../Static/StyleSheets/global.css';
 import '../../Static/StyleSheets/header.css';
@@ -22,7 +23,7 @@ const Home = () => {
             <SkillsSection/>
             <PortfolioSection/>
             <EducationSection/>
-            {/* <ServicesSection/> */}
+            <ServicesSection/>
             {/* <TestimonialSection/> */}
             <ContactForm/>
             {/* <BlogSection/> */}

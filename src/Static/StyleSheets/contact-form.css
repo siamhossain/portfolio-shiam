@@ -74,12 +74,11 @@
 }
 .contact-section .info-details i {
   font-size: 20px;
-  color: #49b3fa;
+  color: var(--education-cap-color);
 }
 .contact-section .info-details .card-phone-info {
-  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
   padding: 20px;
-  background-color: var(--mobile-sidebar-bg-color);
+  background-color: var(--card-bg-color);
   border-radius: 3px;
   display: flex;
   align-items: center;
@@ -97,8 +96,7 @@
   }
 }
 .contact-section .info-details .card-info-details-phone-background {
-  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
-  background-color: var(--mobile-sidebar-bg-color);
+  background-color: var(--card-bg-color);
   color: var(--secondary-color);
   border-radius: 3px;
   padding: 20px;
@@ -123,8 +121,7 @@
   }
 }
 .contact-section .info-details .card-info-details-email-background {
-  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
-  background-color: var(--mobile-sidebar-bg-color);
+  background-color: var(--card-bg-color);
   color: var(--secondary-color);
   border-radius: 3px;
   padding: 20px;
@@ -142,8 +139,7 @@
   }
 }
 .contact-section .info-details .card-info-details-location-background {
-  box-shadow: 0px 9px 47.31px 9.69px rgba(0, 0, 0, 0.04);
-  background-color: var(--mobile-sidebar-bg-color);
+  background-color: var(--card-bg-color);
   color: var(--secondary-color);
   border-radius: 3px;
   padding: 20px;

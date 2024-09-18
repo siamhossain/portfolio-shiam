@@ -20,12 +20,12 @@
 .footer-section .footer-banner h2 {
   color: var(--text-color-white);
   font-size: 37px;
+  margin-bottom: 40px;
 }
 .footer-section .footer-banner h2 span {
   color: #00cf5d;
 }
 .footer-section .footer-banner .btn-banner {
-  margin-top: 30px;
   background: var(--common-bg-color);
   padding: 25px 50px;
   border: none;
@@ -38,21 +38,10 @@
   outline-color: var(--green-color);
   outline-offset: 0px;
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  text-decoration: none;
 }
 .footer-section .footer-banner .btn-banner:hover {
   background: #00cf5d;
-}
-.footer-section .footer-banner .btn-banner {
-  margin-top: 30px;
-  background: var(--common-bg-color);
-  padding: 25px 50px;
-  border: none;
-  color: #ffffff;
-  font-weight: 500;
-  font-family: "Inter-Bold";
-  font-size: 14px;
-  border-radius: 4px;
-  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 @media only screen and (max-width: 768px) {
   .footer-section .footer-banner {
@@ -95,9 +84,6 @@
   font-size: 16px;
   margin-top: 20px;
 }
-.footer-section .footer-nav .social-list {
-  margin-top: 40px;
-}
 @media only screen and (max-width: 500px) {
   .footer-section .footer-nav .social-list {
     margin-top: 20px;
@@ -112,10 +98,13 @@
 .footer-section .footer-nav .social-list ul li {
   padding: 0;
   float: left;
-  margin-right: 10px;
+  margin-right: 12px;
 }
 .footer-section .footer-nav .social-list ul li a {
   color: #a9aaae;
+}
+.footer-section .footer-nav .social-list ul li a i {
+  font-size: 22px;
 }
 .footer-section .footer-nav .social-list ul li a:hover {
   color: var(--green-color);

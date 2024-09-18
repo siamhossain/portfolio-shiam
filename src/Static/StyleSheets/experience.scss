@@ -54,13 +54,11 @@
 
     .experience-card {
       border-radius: 10px;
-      background-color: var(--mobile-sidebar-bg-color);
-      box-shadow: 0px 5px 35.28px 13.72px rgba(0, 0, 0, 0.04);
+      background-color: var(--card-bg-color);
       padding: 30px;
       display: flex;
       position: relative;
       margin-bottom: 25px;
-
         @media only screen and (max-width: 400px) {
           display: block;
         }
@@ -70,7 +68,7 @@
         h4.company-name {
           font-size: 21px;
           font-family: "Inter-Bold";
-          color: var(--section-headline-color);
+          color: var(--experience-title-color);
           line-height: 1.667;
           margin-bottom: 3px;
         }
@@ -78,14 +76,14 @@
         p.designation {
           font-size: 16px;
           font-family: "Inter-Regular";
-          color: var(--text-color);
+          color: var(--text-color-black);
           line-height: 1.667;
           margin-bottom: 0;
         }
 
-        p {
+        p.ex-year {
           font-family: "Inter-Regular";
-          color: #ffffff;
+          color: var(--experience-year-color);
           line-height: 1.563;
         }
       }

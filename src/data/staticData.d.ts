@@ -54,12 +54,17 @@ export interface StaticData {
             href?: string,
             icon?: any,
         },
-        twitter?: {
+        linkedin?: {
             title?: string,
             href?: string,
             icon?: any,
         },
-        linkedin?: {
+        github?: {
+            title?: string,
+            href?: string,
+            icon?: any,
+        },
+        twitter?: {
             title?: string,
             href?: string,
             icon?: any,

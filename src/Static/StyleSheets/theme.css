@@ -5,6 +5,7 @@
   --text-color: #c9c9c9;
   --section-headline-color: #202334;
   --text-color-black: #000000;
+  --description-color: #645858;
   --text-color-white: #ffffff;
   --button-hover-color: #03a74d;
   --follow-me-button-bg-color: #f6f6f6;
@@ -48,6 +49,11 @@
   --contact-form-input-border-color: #e1e1e1;
   --blog-section-card-background-color: #ffffff;
   --blog-section-card-text-title-color: #02052b;
+  --card-bg-color: #f2eeee;
+  --experience-year-color: #810060;
+  --experience-title-color: #6939ca;
+  --project-link-color: hsl(297deg 47% 18% / 85%);
+  --education-cap-color: purple;
 }
 
 .dark {
@@ -61,6 +67,7 @@
   --follow-me-button-text-color: #ffffff;
   --scroll-text-color: #202334;
   --social-link-color: #ffffff;
+  --description-color: #c9c9c9;
   --sticky-header-color: #000000;
   --sticky-header-logo-bg-color: #00cf5d;
   --logo-text-color: #ffffff;
@@ -76,4 +83,9 @@
   --education-section-card-hover-shadow: 0px 24px 35.28px 13.72px rgba(0, 0, 0, 0.5);
   --contact-form-input-border-color: #43444e;
   --contact-form-box-shadow: 0px 9px 47.31px 9.69px rgba(104, 104, 104, 0.04);
+  --card-bg-color: #202334;
+  --experience-year-color: #0b92ff;
+  --experience-title-color: #ffffff;
+  --project-link-color: hsla(0,0%,100%,.85);
+  --education-cap-color: #0b92ff;
 }/*# sourceMappingURL=theme.css.map */

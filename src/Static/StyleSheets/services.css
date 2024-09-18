@@ -26,6 +26,7 @@
   font-family: "Inter-Bold";
   color: var(--section-headline-color);
   line-height: 0.813;
+  margin-bottom: 30px;
 }
 @media only screen and (max-width: 900px) {
   .service-section .my-services h1 {
@@ -40,9 +41,9 @@
 .service-section .my-services p {
   font-size: 16px;
   font-family: "Inter-Regular";
-  color: var(--text-color);
+  color: var(--text-color-black);
   line-height: 1.625;
-  margin-top: 30px;
+  margin-bottom: 35px;
 }
 @media only screen and (max-width: 768px) {
   .service-section .my-services .explore-btn {
@@ -59,8 +60,6 @@
   font-family: "Inter-Bold";
   color: var(--text-color-white);
   line-height: 2.143;
-  margin-top: 80px;
-  margin-bottom: 35px;
   outline: 1px solid;
   outline-color: var(--green-color);
   outline-offset: 0px;
@@ -90,7 +89,7 @@
 }
 .service-section .my-services .explore-btn button:hover {
   background: var(--button-hover-color);
-  transition: 0.3s;
+  transition: all 0.4s ease-in-out;
   outline-color: rgba(0, 0, 0, 0);
   outline-offset: 15px;
   color: var(--text-color-white);
@@ -126,7 +125,7 @@
   margin: 0;
   font-size: 16px;
   font-family: "Inter-Regular";
-  color: var(--text-color);
+  color: var(--text-color-black);
   line-height: 1.625;
   margin-top: 15px;
 }
@@ -147,9 +146,8 @@
 }
 .service-section .service-card:hover {
   background: #00cf5d;
-  cursor: pointer;
   color: #ffffff;
-  transition: 0.5s;
+  transition: all 0.4s ease-in-out;
   transform: translateY(-5px);
 }
 .service-section .service-card:hover .service-card-icon {

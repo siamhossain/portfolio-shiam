@@ -1,9 +1,9 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-import '../../Static/StyleSheets/global.css';
-import '../../Static/StyleSheets/footer.css';
+import React from 'react';
 import { staticData } from '../../data/staticData';
+import '../../Static/StyleSheets/footer.css';
+import '../../Static/StyleSheets/global.css';
 
 const FooterSection = () => {
     const {footer_section, social_links} = staticData;
@@ -17,11 +17,11 @@ const FooterSection = () => {
                             <div className="col-xs-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12">
                                 <div className="footer-banner">
                                     <h2>{footer_section.topCard?.title}<br/><span>{footer_section.topCard?.subtitle}</span></h2>
-                                    {footer_section.topCard.hireButton && (
-                                        <a href={footer_section.topCard.hireButton?.href} target="_blank">
-                                            <button className="btn-banner">{footer_section.topCard.hireButton?.title}</button>
-                                        </a>
-                                    )}
+                                    <div className="btn-wrapper">
+                                        {footer_section.topCard.hireButton && (
+                                            <a href={footer_section.topCard.hireButton?.href} className="btn-banner"> {footer_section.topCard.hireButton?.title} </a>
+                                        )}
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -47,10 +47,10 @@ const FooterSection = () => {
                                     <ul>
                                         {footer_section?.showSocialIcons && (
                                             <React.Fragment>
-                                            <li><a href={social_links?.facebook?.href}><i className="fa fa-facebook-f"></i></a></li>
-                                            <li><a href={social_links?.twitter?.href}><i className="fa fa-twitter"></i></a></li>
                                             <li><a href={social_links?.linkedin?.href}><i className="fa fa-linkedin"></i></a></li>
-                                            <li><a href={social_links?.behance?.href}><i className="fa fa-behance"></i></a></li>  
+                                            <li><a href={social_links?.github?.href}><i className="fa fa-github"></i></a></li>
+                                            <li><a href={social_links?.facebook?.href} target="blank"><i className="fa fa-facebook-f"></i></a></li>
+                                            <li><a href={social_links?.twitter?.href}><i className="fa fa-twitter"></i></a></li>
                                             </React.Fragment>
                                         )}
 
@@ -60,11 +60,11 @@ const FooterSection = () => {
                             {footer_section?.service_links && footer_section?.service_links?.length > 0 && (
                                 <div className="col-xs-12 col-sm-6 col-md-3 col-xl-3 col-xxl-3">
                                     <div className="footer-menu">
-                                        <h3>Services</h3>
+                                        <h3>Menus</h3>
                                         <ul>
                                             {footer_section?.service_links?.map((link, index) => (
                                                 <li key={index}>
-                                                    <a href={link.href}>{link.title}</a>
+                                                    <a href={link.href} >{link.title}</a>
                                                 </li>
                                             ))}
                                         </ul>
@@ -75,11 +75,11 @@ const FooterSection = () => {
                             {footer_section?.about_links && footer_section?.about_links?.length > 0 && (
                                 <div className="col-xs-12 col-sm-6 col-md-3 col-xl-3 col-xxl-3">
                                     <div className="footer-menu">
-                                        <h3>About</h3>
+                                        <h3>Services</h3>
                                         <ul>
                                             {footer_section?.about_links?.map((link, index) => (
                                                 <li key={index}>
-                                                    <a href={link.href}>{link.title}</a>
+                                                    <a href={link.href} target="blank">{link.title}</a>
                                                 </li>
                                             ))}
                                         </ul>
