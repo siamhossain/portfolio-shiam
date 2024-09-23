@@ -11,7 +11,7 @@ const EducationSection = () => {
     return (
         <React.Fragment>
             {education_section?.data && education_section?.data?.length > 0 && (
-                <div className="education-section">
+                <div className="education-section section-padding">
                     <div className="container responsive-container">
                         <div className="section-title">
                             <h1>{education_section.section_title}</h1>

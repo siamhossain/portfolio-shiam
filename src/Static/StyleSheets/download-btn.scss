@@ -1,9 +1,10 @@
 .download-btn {
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
         text-align: center;
     }
 
     .cv-download-btn {
+
         border-radius: 3px;
         background: var(--green-color);
         top: 1425px;
@@ -26,17 +27,9 @@
             margin-right: 8px;
         }
 
-        @media only screen and (max-width: 1200px) {
-        margin-top: 35px;
-        }
-
-        @media only screen and (max-width: 1024px) {
-        margin-top: 30px;
-        }
-
         @media only screen and (max-width: 768px) {
-        width: 160px;
-        height: 44px;
+        // width: 160px;
+        // height: 44px;
         }
 
         img {

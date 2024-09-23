@@ -19,7 +19,7 @@ const ExperienceSection = () => {
     return (
         <React.Fragment>
             {experience_section?.data && experience_section?.data?.length > 0 && (
-                <div className="experience-section">
+                <div className="experience-section section-padding">
                     <div className="container responsive-container">
                         <div className="section-heading">
                             <h1>{experience_section.section_title}</h1>

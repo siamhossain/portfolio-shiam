@@ -11,7 +11,7 @@ const ContactForm = () => {
     const {contact_section} = staticData;
     return (
         <div>
-            <div className="contact-section" id="contact">
+            <div className="contact-section section-padding" id="contact">
                 <div className="container">
                     <div className="row">
                         <div className="contact-wrap">

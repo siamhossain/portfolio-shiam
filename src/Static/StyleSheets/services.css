@@ -1,7 +1,6 @@
 /* Services*/
 .service-section {
   background: var(--primary-color);
-  padding: 60px 0;
 }
 @media only screen and (max-width: 500px) {
   .service-section .responsive-container {

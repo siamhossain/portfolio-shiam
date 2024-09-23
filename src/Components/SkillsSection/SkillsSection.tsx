@@ -16,7 +16,7 @@ const SkillsSection = () => {
 
     return (
         <div>
-            <div className="skill-section">
+            <div className="skill-section section-padding">
                 <div className="container">
                     <div className="row">
                         <div className="skill-tab-pane">

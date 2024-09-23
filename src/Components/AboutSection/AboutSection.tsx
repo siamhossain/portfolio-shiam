@@ -9,7 +9,7 @@ const AboutSection = () => {
     const {about_section} = staticData;
     return (
         <div>
-            <div className="about-section" id="about">
+            <div className="about-section section-padding" id="about">
                 <div className="container">
                     <div className="row">
                         {/* <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 about-img-container">

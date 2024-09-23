@@ -148,7 +148,7 @@
 }
 @media only screen and (max-width: 1200px) {
   .hero-section .content-container .content .title-text {
-    font-size: 25px;
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 765px) {
@@ -177,7 +177,9 @@
   padding: 0;
   list-style: none;
   display: flex;
-  gap: 25px;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  row-gap: 10px;
   flex-wrap: wrap;
 }
 .hero-section .content-container .content .designation-list-wrap ul li {

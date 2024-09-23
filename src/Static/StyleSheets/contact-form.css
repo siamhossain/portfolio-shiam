@@ -1,5 +1,4 @@
 .contact-section {
-  padding: 60px 0;
   background: var(--primary-color);
 }
 @media only screen and (max-width: 900px) {

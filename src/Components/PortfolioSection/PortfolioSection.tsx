@@ -14,7 +14,7 @@ const PortfolioSection = () => {
 
     return (
         <div>
-            <div className="portfolio-section" id="portfolio">
+            <div className="portfolio-section section-padding" id="portfolio">
                 <div className="container responsive-container">
                     <h1>{portfolio_section.section_title}</h1>
                     <div className="portfolio-tab-pane">

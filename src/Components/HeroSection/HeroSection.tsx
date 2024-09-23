@@ -17,20 +17,20 @@ const HeroSection = () => {
             <div className="hero-section">
                 <div className="container responsive-container">
                     <div className="row flex-row-reverse">
-                        <div className="col-xs-12 col-sm-12 col-md-6 col-xl-6">
+                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div className="bg-container">
                                 <div className="hero-section-image-container">
 
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xs-12 col-sm-12 col-md-5 col-xl-5">
+                        <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                             <div className="content-container">
                                 <div className="content">
                                     <h6 className="person-name">{short_introduction.name}</h6>
                                     <h1 className="title-text">{short_introduction.title}</h1>
                                     <div className="designation-list-wrap">
-                                        <ul className="designation-list">
+                                        <ul className="designation-list justify-content-center justify-content-md-start">
                                             <li className='designation-list-item'>Web Developer</li>
                                             <li className='designation-list-item'>Programmer</li>
                                             <li className='designation-list-item'>Software Engineer</li>
@@ -56,8 +56,7 @@ const HeroSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div
-                            className="col-xs-12 col-sm-12 col-md-1 col-xl-1 d-flex justify-content-center align-items-center">
+                        <div className="col-xs-12 col-sm-12 col-md-1 col-lg-1 d-flex justify-content-center align-items-center">
                             <div className="social-container">
                                 <div className="social-link">
                                     <ul>

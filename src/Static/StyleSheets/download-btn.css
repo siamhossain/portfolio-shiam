@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .download-btn {
     text-align: center;
   }
@@ -25,22 +25,6 @@
 .download-btn .cv-download-btn i {
   font-size: 18px;
   margin-right: 8px;
-}
-@media only screen and (max-width: 1200px) {
-  .download-btn .cv-download-btn {
-    margin-top: 35px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .download-btn .cv-download-btn {
-    margin-top: 30px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .download-btn .cv-download-btn {
-    width: 160px;
-    height: 44px;
-  }
 }
 .download-btn .cv-download-btn img {
   width: 25px;

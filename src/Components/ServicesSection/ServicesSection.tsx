@@ -1,13 +1,10 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+import React from 'react';
+import { staticData } from "../../data/staticData";
+import explore from '../../Static/icons/ic_explore.png';
 import '../../Static/StyleSheets/global.css';
 import '../../Static/StyleSheets/services.css';
-import explore from '../../Static/icons/ic_explore.png';
-import graphic from '../../Static/icons/ic_graphic.png';
-import AppDevelopment from '../../Static/icons/App-Development.png';
-import WebDevelopment from '../../Static/icons/Web-Development.png';
-import {staticData} from "../../data/staticData";
 
 
 const ServicesSection = () => {
@@ -15,7 +12,7 @@ const ServicesSection = () => {
     return (
         <React.Fragment>
             {service_section?.data && service_section?.data?.length > 0 && (
-                <div className="service-section" id="services">
+                <div className="service-section section-padding" id="services">
                     <div className="container">
                         <div className="row">
                             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
