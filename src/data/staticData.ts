@@ -31,7 +31,7 @@ const staticData: StaticData = {
     },
 
     about_section: {
-        section_title: "About Me",
+        section_title: "About MeX",
         description: "Hello! I’m Shiam Hossain, a Web Developer with extensive experience in creating responsive and interactive user interfaces. Skilled in HTML, CSS, JavaScript, React, and various front-end technologies, I specialize in front-end development. I also have backend experience with PHP, Laravel(begginer), and API integration. Proficient in tools like Git, GitHub, Figma, and Photoshop, I am passionate about delivering high-quality web solutions.<br><br>Driven by a commitment to continuous learning and improvement, I stay updated with the latest industry trends and technologies to deliver the best possible solutions for clients and projects.",
         client: 350,
         experience: 10,
